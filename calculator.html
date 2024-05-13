@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+
+<body>
+    <div id="main">
+        <!-- Displaying Numbers -->
+        <div id="main1">
+            <div id="main1-1">
+                <input id="result" name="Calculator" type="number">
+            </div>
+        </div>
+        <!-- Choosing Calculation -->
+        <div id="main2">
+            <div id="main2-2">
+                <div onclick="add()" id="addition"><button id="add">+</button></div>
+                <div onclick="sub()" id="subtract"><button id="sub">-</button></div>
+                <div onclick="mul()" id="multiply"><button id="mul">*</button></div>
+                <div onclick="div()" id="divide"><button id="div">/</button></div>
+            </div>
+        </div>
+        <!-- Displaying Output -->
+        <div id="main3">
+            <div id="main3-3">
+                <div id="main3-3-3"></div>
+            </div>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+
+</html>
